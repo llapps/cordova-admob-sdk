@@ -3,12 +3,12 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="lycwed-cordova-plugin-admob-facebook"
-    version="1.0.0">
+    version="1.0.1">
 
     <name>AdMob Mediation Adapter for Facebook Audience Network</name>
     <description>AdMob Mediation Adapter for Facebook Audience Network</description>
-    <author>Sylvain Bréjeon</author>
-    <keywords>admob,mediation,facebook</keywords>
+    <author>Lycwed</author>
+    <keywords>admob, mediation, facebook</keywords>
     <license>MIT</license>
 
     <engines>
@@ -24,8 +24,7 @@
         <pods-config ios-min-version="9.0" use-frameworks="true" />
         <pod id="FBAudienceNetwork" version="4.25.0" />
         <pod id="GoogleMobileAdsMediationFacebook" version="4.25.0.0" />
-    </platform>
-    
-    <dependency id="cordova-plugin-cocoapod-support"/>
 
+        <dependency id="cordova-plugin-cocoapod-support"/>
+    </platform>
 </plugin>
