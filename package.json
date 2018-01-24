@@ -1,33 +1,31 @@
 {
-    "name": "lycwed-cordova-plugin-admob-facebook",
-    "version": "1.0.1",
-    "description": "AdMob Mediation Adapter for Facebook Audience Network",
-    "cordova": {
-        "id": "cordova-plugin-admob-mediation-facebook",
-        "platforms": [
-            "android",
-            "ios"
-        ]
-    },
-    "repository": "lycwed/lycwed-cordova-plugin-admob-facebook",
-    "keywords": [
-        "ecosystem:cordova",
-        "cordova-android",
-        "cordova-ios",
-        "cordova",
-        "plugin",
-        "ad",
-        "admob",
-        "facebook",
-        "mediation"
-    ],
-    "author": {
-        "name": "Sylvain Bréjeon",
-        "url": "https://github.com/becvert"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/lycwed/lycwed-cordova-plugin-admob-facebook/issues"
-    },
-    "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-admob-facebook"
+  "name": "lycwed-cordova-plugin-admob-facebook",
+  "version": "1.0.2",
+  "description": "Cordova AdMob Mediation Plugin for Facebook Audience Network",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-plugin-admob-mediation-facebook",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "lycwed/lycwed-cordova-plugin-admob-facebook",
+  "author": "Lycwed",
+  "license": "MIT",
+  "keywords": [
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "admob",
+    "facebook",
+    "mediation"
+  ],
+  "bugs": {
+    "url": "https://github.com/lycwed/lycwed-cordova-plugin-admob-facebook/issues"
+  },
+  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-admob-facebook"
 }
