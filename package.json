@@ -1,18 +1,18 @@
 {
-  "name": "lycwed-cordova-plugin-admob-facebook",
-  "version": "1.0.4",
+  "name": "mein-fan",
+  "version": "1.0.1",
   "description": "Cordova AdMob Mediation Plugin for Facebook Audience Network",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
   },
   "cordova": {
-    "id": "cordova-plugin-admob-mediation-facebook",
+    "id": "mein-fan",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "repository": "lycwed/lycwed-cordova-plugin-admob-facebook",
+  "repository": "llapps/mein-fan",
   "author": "Lycwed",
   "license": "MIT",
   "keywords": [
@@ -25,7 +25,7 @@
     "mediation"
   ],
   "bugs": {
-    "url": "https://github.com/lycwed/lycwed-cordova-plugin-admob-facebook/issues"
+    "url": "https://github.com/llapps/mein-fan/issues"
   },
-  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-admob-facebook"
+  "homepage": "https://github.com/llapps/mein-fan"
 }
