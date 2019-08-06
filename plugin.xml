@@ -13,7 +13,7 @@
     <platform name="android">
         <framework src="com.facebook.android:audience-network-sdk:5.4.+" />
         <framework src="com.google.ads.mediation:facebook:5.4.+" />
-        <framework src="com.android.support:support-annotations:28.0.0" />
+        <framework src="com.android.support:support-annotations:26.0.0" />
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
     </platform>
