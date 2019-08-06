@@ -14,7 +14,7 @@
         <framework src="com.facebook.android:audience-network-sdk:5.4.1" />
         <framework src="com.google.ads.mediation:facebook:5.4.1.0" />
         <framework src="androidx.annotation:annotation:1.1.0" />
-        <framework src="com.google.android.gms:play-services-basement:11.0.4" />
+        <framework src="com.google.android.gms:play-services-basement:17.0.0" />
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
     </platform>
