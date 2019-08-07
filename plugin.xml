@@ -13,10 +13,8 @@
     <platform name="android">
         <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
         <framework src="com.google.ads.mediation:facebook:5.4.1.0" />
-        <framework src="com.google.android.gms:play-services-basement:15.0.0" />
-        <framework src="com.google.android.gms:play-services-base:15.0.0" />
+        <framework src="com.google.android.gms:play-services-basement:+" />
          <framework src="com.android.support:recyclerview-v7:26.1.0" />
-        <framework src="com.google.android.gms:play-services-ads:17.2.1" />
          <framework src="com.android.support:support-annotations:26.1.0" />
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
