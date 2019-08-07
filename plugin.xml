@@ -13,10 +13,17 @@
     <platform name="android">
         <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
         <framework src="com.google.ads.mediation:facebook:5.4.1.0" />
-        <framework src="com.google.android.gms:play-services-basement:17.0.0" />
         <framework src="com.google.android.gms:play-services-base:17.0.0" />
         <framework src="com.google.android.gms:play-services-ads:18.1.1" />
        
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+          <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+          <uses-permission android:name="android.permission.INTERNET" />
+          <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        </config-file>
+        
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
         <dependency id="cordova-plugin-enable-multidex" />
