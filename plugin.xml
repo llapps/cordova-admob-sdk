@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<<?xml version="1.0" encoding="UTF-8"?>
 <plugin id="cordova-admob-sdk" version="0.24.1"
-    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns="http://cordova.apache.org/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>cordova-admob-sdk</name>
@@ -11,71 +11,21 @@
     </engines>
 
     <platform name="android">
- <framework src="com.google.android.gms:play-services-ads:17.2.1" />
-        <framework src="com.google.android.gms:play-services-ads-identifier:17.0.0" />
-        <framework src="com.google.android.gms:play-services-ads-lite:17.2.1" />
-        <framework src="com.google.android.gms:play-services-afs-native:17.0.0" />
-        <framework src="com.google.android.gms:play-services-analytics:17.0.0" />
-        <framework src="com.google.android.gms:play-services-analytics-impl:17.0.0" />
-        <framework src="com.google.android.gms:play-services-appinvite:18.0.0" />
-        <framework src="com.google.android.gms:play-services-audience:17.0.0" />
-        <framework src="com.google.android.gms:play-services-auth:17.0.0" />
-        <framework src="com.google.android.gms:play-services-auth-api-phone:17.0.0" />
-        <framework src="com.google.android.gms:play-services-awareness:17.0.0" />
-        <framework src="com.google.android.gms:play-services-base:17.0.0" />
-        <framework src="com.google.android.gms:play-services-basement:17.0.0" />
-        <framework src="com.google.android.gms:play-services-cast:17.0.0" />
-        <framework src="com.google.android.gms:play-services-cast-framework:17.0.0" />
-        <framework src="com.google.android.gms:play-services-clearcut:17.0.0" />
-        <framework src="com.google.android.gms:play-services-cronet:17.0.0" />
-        <framework src="com.google.android.gms:play-services-drive:17.0.0" />
-        <framework src="com.google.android.gms:play-services-fido:18.0.0" />
-        <framework src="com.google.android.gms:play-services-fitness:17.0.0" />
-        <framework src="com.google.android.gms:play-services-flags:17.0.0" />
-        <framework src="com.google.android.gms:play-services-games:18.0.0" />
-        <framework src="com.google.android.gms:play-services-gass:18.0.0" />
-        <framework src="com.google.android.gms:play-services-gcm:17.0.0" />
-        <framework src="com.google.android.gms:play-services-identity:17.0.0" />
-        <framework src="com.google.android.gms:play-services-iid:17.0.0" />
-        <framework src="com.google.android.gms:play-services-instantapps:17.0.0" />
-        <framework src="com.google.android.gms:play-services-location:17.0.0" />
-        <framework src="com.google.android.gms:play-services-maps:17.0.0" />
+        <framework src="com.google.android.gms:play-services-base:17.1.0" />
+        <framework src="com.google.android.gms:play-services-basement:17.1.0" />
         <framework src="com.google.android.gms:play-services-measurement:17.0.0" />
-        <framework src="com.google.android.gms:play-services-measurement-api:17.0.0" />
-        <framework src="com.google.android.gms:play-services-measurement-impl:17.0.0" />
         <framework src="com.google.android.gms:play-services-measurement-sdk:17.0.0" />
-        <framework src="com.google.android.gms:play-services-measurement-sdk-api:17.0.0" />
-        <framework src="com.google.android.gms:play-services-nearby:17.0.0" />
-        <framework src="com.google.android.gms:play-services-oss-licenses:17.0.0" />
-        <framework src="com.google.android.gms:play-services-panorama:17.0.0" />
-        <framework src="com.google.android.gms:play-services-phenotype:17.0.0" />
-        <framework src="com.google.android.gms:play-services-places:17.0.0" />
-        <framework src="com.google.android.gms:play-services-places-placereport:17.0.0" />
-        <framework src="com.google.android.gms:play-services-plus:17.0.0" />
-        <framework src="com.google.android.gms:play-services-safetynet:17.0.0" />
-        <framework src="com.google.android.gms:play-services-stats:17.0.0" />
-        <framework src="com.google.android.gms:play-services-tagmanager:17.0.0" />
-        <framework src="com.google.android.gms:play-services-tagmanager-api:17.0.0" />
-        <framework src="com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0" />
-        <framework src="com.google.android.gms:play-services-tasks:17.0.0" />
-        <framework src="com.google.android.gms:play-services-vision:18.0.0" />
-        <framework src="com.google.android.gms:play-services-vision-common:18.0.0" />
-        <framework src="com.google.android.gms:play-services-vision-image-label:18.0.0" />
-        <framework src="com.google.android.gms:play-services-wallet:17.0.0" />
-        <framework src="com.google.android.gms:play-services-wearable:17.0.0" />
         
-
-        <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
-        <framework src="com.google.ads.mediation:facebook:5.4.0.0"  />
-        <framework src="com.android.support:recyclerview-v7:26.1.0"  />
-        
-        
+        <framework src="com.google.android.gms:play-services-ads:18.1.1" />
+        <framework src="com.facebook.android:audience-network-sdk:5.4.1" />
+        <framework src="com.google.ads.mediation:facebook:5.4.1.1" />
+        <framework src="androidx.annotation:annotation:1.1.0" />
         
 
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
-
+        <dependency id="cordova-plugin-multidex" />
     </platform>
 
  </plugin>
