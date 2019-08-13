@@ -11,15 +11,13 @@
     </engines>
 
     <platform name="android">
-        <framework src="com.google.android.gms:play-services-base:17.1.0" />
-        <framework src="com.google.android.gms:play-services-basement:17.1.0" />
-        <framework src="com.google.android.gms:play-services-measurement:17.0.0" />
-        <framework src="com.google.android.gms:play-services-measurement-sdk:17.0.0" />
+        <framework src="com.google.android.gms:play-services-base:17.0.0" />
         
-        <framework src="com.google.android.gms:play-services-ads:18.1.1" />
-        <framework src="com.facebook.android:audience-network-sdk:5.4.1" />
-        <framework src="com.google.ads.mediation:facebook:5.4.1.1" />
-        <framework src="androidx.annotation:annotation:1.1.0" />
+        <framework src="com.google.android.gms:play-services-ads:17.2.1" />
+        <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
+        <framework src="com.google.ads.mediation:facebook:5.4.0.0"  />
+        <framework src="com.android.support:recyclerview-v7:26.1.0"  />
+        
         
 
 
