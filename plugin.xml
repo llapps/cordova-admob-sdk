@@ -13,6 +13,9 @@
     <platform name="android">
         <framework src="com.google.android.gms:play-services-base:17.1.0" />
         <framework src="com.google.android.gms:play-services-basement:17.1.0" />
+        <framework src="com.google.android.gms:play-services-measurement:17.1.0" />
+        <framework src="com.google.android.gms:play-services-measurement-sdk:17.1.0" />
+        
         <framework src="com.google.android.gms:play-services-ads:18.1.1" />
         <framework src="com.facebook.android:audience-network-sdk:5.4.1" />
         <framework src="com.google.ads.mediation:facebook:5.4.1.1" />
