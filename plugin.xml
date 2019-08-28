@@ -11,19 +11,22 @@
     </engines>
 
     <platform name="android">
-       <framework src="com.android.support:customtabs:28.0.0" />
-<framework src="com.android.support:support-v4:28.0.0" />
-<framework src="com.android.support:design:28.0.0" />
-<framework src="com.android.support:recyclerview-v7:28.0.0" />
-<framework src="com.android.support.constraint:constraint-layout:1.1.3" />
-<framework src="com.google.android.gms:play-services-ads-identifier:16.0.0" />
-<framework src="com.google.android.gms:play-services-base:16.0.1" />
-<framework src="com.facebook.android:audience-network-sdk:5.4.0" />
-<framework src="com.google.android.gms:play-services-ads:17.2.0" />
-<framework src="com.google.ads.mediation:facebook:5.4.0.0" />
-<framework src="com.android.support:support-annotations:28.0.0" />
-        
 
+        <framework src="com.google.android.gms:play-services-ads:18.1.1" />
+        <framework src="com.facebook.android:audience-network-sdk:5.5.0" />
+        
+        <framework src="com.google.ads.mediation:facebook:5.5.0.0" />
+        <framework src="androidx.annotation:annotation:1.1.0" />
+
+        <framework src="androidx.browser:browser:1.0.0" />
+        <framework src="androidx.collection:collection:1.0.0" />        
+        <framework src="androidx.core:core:1.0.0" />
+        <framework src="com.google.android.gms:play-services-ads-base:18.1.1" />
+        <framework src="com.google.android.gms:play-services-ads-identifier:17.0.0" />
+        <framework src="com.google.android.gms:play-services-ads-lite:18.1.1" />
+        <framework src="com.google.android.gms:play-services-basement:17.0.0" />
+        <framework src="com.google.android.gms:play-services-gass:18.1.1" />
+        
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
