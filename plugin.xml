@@ -13,7 +13,7 @@
     <platform name="android">
 
 
-        <framework src="com.google.android.gms:play-services-base:16.0.1" />
+        <framework src="com.google.android.gms:play-services-basement:16.0.1" />
         <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
         <framework src="com.google.android.gms:play-services-ads:17.2.1" />
         <framework src="com.google.ads.mediation:facebook:5.4.0.0" />
