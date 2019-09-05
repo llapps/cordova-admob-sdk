@@ -16,6 +16,9 @@
         <framework src="com.google.ads.mediation:facebook:5.5.0.0" />
         <framework src="com.google.android.gms:play-services-base:17.0.0" />
         
+        <framework src="androidx.collection:collection:1.0.0" />
+        <framework src="androidx.core:core:1.0.0" />
+        <framework src="androidx.fragment:fragment:1.0.0" />
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
      
