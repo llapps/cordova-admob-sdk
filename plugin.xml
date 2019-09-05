@@ -11,23 +11,10 @@
     </engines>
 
     <platform name="android">
-       <framework src="com.google.android.gms:play-services-ads:17.2.1" />
-        <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
-        <framework src="com.google.ads.mediation:facebook:5.4.0.0" />
-        
-        <framework src="com.google.android.gms:play-services-base:+" />
-        <framework src="com.android.support:customtabs:+" />
-        <framework src="com.google.android.gms:play-services-ads-base:+" />
-        <framework src="com.google.android.gms:play-services-ads-identifier:+" />
-        <framework src="com.google.android.gms:play-services-ads-lite:+" />
-        <framework src="com.google.android.gms:play-services-basement:+" />
-        <framework src="com.google.android.gms:play-services-measurement:+" />
-        <framework src="com.google.android.gms:play-services-measurement-sdk-api:16.3.0" />
-
-        
-        <framework src="com.google.android.gms:play-services-gass:+" />
-        
-        <framework src="com.android.support:support-annotations:+" />
+       <framework src="com.google.android.gms:play-services-ads:18.1.1" />
+        <framework src="com.facebook.android:audience-network-sdk:5.5.0" />
+        <framework src="com.google.ads.mediation:facebook:5.5.0.0" />
+        <framework src="androidx.appcompat:appcompat:1.0.2" />
         
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
