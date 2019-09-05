@@ -14,7 +14,13 @@
         <framework src="com.google.android.gms:play-services-ads:+" />
         <framework src="com.facebook.android:audience-network-sdk:+" />
         <framework src="com.google.ads.mediation:facebook:+" />
+        <framework src="androidx.collection:collection:+" />
+        <framework src="androidx.core:core:+" />
+        <framework src="androidx.fragment:fragment:+" />
         <framework src="androidx.annotation:annotation:+" />
+        <framework src="androidx.browser:browser:+" />
+        <framework src="androidx.legacy:legacy-support-v4:+" />
+        <framework src="androidx.recyclerview:recyclerview:+" />
         <framework src="com.google.android.gms:play-services-base:+" />
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
