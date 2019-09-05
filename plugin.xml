@@ -21,6 +21,9 @@
         <framework src="com.google.android.gms:play-services-ads-identifier:16.0.0" />
         <framework src="com.google.android.gms:play-services-ads-lite:17.2.1" />
         <framework src="com.google.android.gms:play-services-basement:16.0.1" />
+        <framework src="com.google.android.gms:play-services-measurement:17.0.0" />
+
+        
         <framework src="com.google.android.gms:play-services-gass:17.2.1" />
         
         <framework src="com.android.support:support-annotations:28.0.0" />
