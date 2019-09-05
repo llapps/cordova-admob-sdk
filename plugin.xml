@@ -20,7 +20,7 @@
         <framework src="com.android.support:recyclerview-v7:28.0.0" />
         <framework src="com.android.support.constraint:constraint-layout:1.1.3" />
         
-              <framework src="com.google.android.gms:play-services-basement:16.0.1" />
+              <framework src="com.google.android.gms:play-services-base:17.0.0" />
         
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
