@@ -1,4 +1,6 @@
 repositories {
   // You can also use jcenter if you prefer
-  mavenCentral ()
+  mavenCentral()
+  google()
+  jcenter()
 }
