@@ -1,7 +1,9 @@
-repositories {
-  // You can also use jcenter if you prefer
-  google()
-  jcenter()
-  maven { url 'https://dl.bintray.com/google/mobile-ads-adapters-android/'}
-  mavenCentral() 
+buildscript {
+  repositories {
+    // You can also use jcenter if you prefer
+    google()
+    jcenter()
+    maven { url 'https://dl.bintray.com/google/mobile-ads-adapters-android/'}
+    mavenCentral() 
+  }
 }
