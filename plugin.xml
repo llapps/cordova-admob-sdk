@@ -29,8 +29,6 @@
             <activity android:name="com.facebook.ads.internal.ipc.RemoteANActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:process=":adnw" />
             <service android:name="com.facebook.ads.internal.ipc.AdsProcessPriorityService" android:exported="false" />
             <service android:name="com.facebook.ads.internal.ipc.AdsMessengerService" android:exported="false" android:process=":adnw" />
-            <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
-
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.INTERNET" />
