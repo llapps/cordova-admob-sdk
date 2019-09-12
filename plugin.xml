@@ -11,7 +11,7 @@
     </engines>
 
     <platform name="android">
-        <preference name="FACEBOOK_OLAPP_ID" default="1147461045332782"/>
+        <preference name="FACEBOOK_OLAPP_ID" default="ef45"/>
         <framework src="fb-adsdk.gradle" custom="true" type="gradleReference" />    
         <framework src="com.google.android.gms:play-services-ads:17.2.1" />
         <framework src="com.facebook.android:audience-network-sdk:5.4.0" />
