@@ -24,7 +24,7 @@
         <framework src="com.google.ads.mediation:facebook:5.6.0.0" />
  
 
-        <framework src="com.facebook.android:facebook-core:5.+" />
+        <framework src="com.facebook.android:facebook-core:4.41.0" />
        
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
