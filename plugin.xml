@@ -18,7 +18,11 @@
         
         
         <framework src="fb-adsdk.gradle" custom="true" type="gradleReference" />    
-
+        
+   
+        <framework src="com.facebook.android:audience-network-sdk:5.6.0" />
+        <framework src="com.google.ads.mediation:facebook:5.6.0.0" />
+ 
 
         <framework src="com.facebook.android:facebook-core:5.13.0" />
        
