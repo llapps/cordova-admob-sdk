@@ -20,7 +20,7 @@
         <framework src="fb-adsdk.gradle" custom="true" type="gradleReference" />    
         
    
-        <framework src="androidx.legacy:legacy-support-v4:1.1.0" />
+        <framework src="androidx.legacy:legacy-support-v4:1.0.0" />
         <framework src="androidx.appcompat:appcompat:1.1.0" />
         <framework src="androidx.cardview:cardview:1.0.0" />
         <framework src="androidx.browser:browser:1.0.0" />
